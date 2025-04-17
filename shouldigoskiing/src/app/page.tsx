@@ -66,7 +66,7 @@ export default function Home() {
   useEffect(() => {
     const generateSnowflakes = () => {
       const flakes: Snowflake[] = [];
-      const count = 60; // Increased count for better effect
+      const count = 50; // Increased count for better effect
       
       for (let i = 0; i < count; i++) {
         const initialX = Math.random() * 100; // Initial position as percentage
@@ -351,7 +351,7 @@ export default function Home() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/skiingwp2.jpg"
+          src="/skiingwp.jpg"
           alt="Skiing background"
           fill
           priority
